@@ -1,0 +1,1 @@
+docker service -d --name orbital-command --network overmind -e RABBITMQ_DEFAULT_USER=che -e RABBITMQ_DEFAULT_PASS=test rabbitmq:3-management
